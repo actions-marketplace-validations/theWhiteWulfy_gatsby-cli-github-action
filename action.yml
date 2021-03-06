@@ -1,6 +1,5 @@
 name: 'Gatsby CLI wrapper on node12'
 description: 'This Action wraps the Gatsby CLI to enable common Gatsby commands. modified fork of jzweifel/gatsby-cli-github-action'
-color: 'blue'
 inputs:
   gatsby-arg:
     description: 'Arguments to pass to Gatsby CLI'
@@ -11,3 +10,6 @@ runs:
   image: 'Dockerfile'
   args:
     - ${{ inputs.gatsby-arg }}
+branding:
+  icon: 'airplay'  
+  color: 'blue'

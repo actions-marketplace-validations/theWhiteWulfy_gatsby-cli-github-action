@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Build Gatsby Site
-      uses: jzweifel/gatsby-cli-github-action@master
+      uses: theWhiteWulfy/gatsby-cli-github-action@2.0.b
       with:
         gatsby-arg: build
 ```
@@ -29,7 +29,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Build Gatsby Site
-      uses: jzweifel/gatsby-cli-github-action@master
+      uses: theWhiteWulfy/gatsby-cli-github-action@2.0.b
       env:
         GATSBY_PROJECT_PATH: "./client"
       with:

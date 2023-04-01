@@ -30,7 +30,7 @@ jobs:
     if: contains(github.ref,'master')
     steps:
     - uses: actions/checkout@master
-    - uses: elgohr/Publish-Docker-Github-Action@master
+    - uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: jzweifel/gatsby-cli-github-action/gatsby-cli-github-action
         password: ${{ secrets.DOCKER_PASSWORD }}
